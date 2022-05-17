@@ -1,0 +1,264 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.header{
+    border-bottom: 2px solid #00FF94;
+}
+
+
+/* vaccinepage.php */
+
+.welcome{
+  position: relative;
+  background-image: url(https://images.unsplash.com/photo-1626351545208-28c9080106ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  min-height: 86vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.welcome .container{
+  opacity: 0.8;
+  padding: 20px 40px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  border: 10px solid #90EE90;
+  background-color: #90EE90;
+  position: relative;
+  vertical-align: middle;
+  /* text-shadow: 0px 0px 10px #000; */
+  /* color: white; */
+  text-align: center;
+  
+}
+
+.navtitle ,.navtitleonly{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background:	#90EE90;
+}
+
+.vaccinebar{
+  margin:0;
+  padding:0;
+  background: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+/* .navbar2nd ul{
+  text-align:justify;
+} */
+
+
+.navbar2nd a{
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  display:block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar2nd a:hover{
+  color:#66FF00;
+}
+
+
+.vaccine1,.vaccine2,.vaccine3,.vaccine4,.vaccine5,.vaccine6,.vaccine7{
+  background-image: url(./pics/firstpage2.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+  border-bottom: 5px solid black;
+}
+
+.vaccinewho{
+  background: #D3D3D3;
+}
+
+.vaccinewho2{
+  background: #FFFFCC;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #008A40;
+  bottom: 40px;
+  right: 50px;
+  
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.gotopbtn:hover{
+  transform: scale(1.1);
+  transition: .5s ease;
+  overflow: hidden;
+}
+
+.footerclass{
+  background: #D3D3D3;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navtitleonly:hover{
+  transform: scale(1.2);
+  transition: .5s ease;
+  overflow: hidden;
+}
+
+
+/* create.php */
+
+.site-create{
+  width: 100%;
+  height: auto;
+  background-image: url(./pics/firstpage.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.crecord{
+  background-color: #006400;
+  border-radius: 20px 20px 0px 0px;
+  color: #FFFFFF;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+.crecord2{
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* index.php */
+
+.site-index{
+  width: 100%;
+  height: auto;
+  background-image: url(./pics/firstpage.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+
+.cindex{
+  background-color: #006400;
+  border-radius: 20px 20px 0px 0px;
+  color: #FFFFFF;
+  padding-bottom:10px;
+  text-align: center;
+  
+}
+
+.intable{
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.intable th,
+.intable td{
+  padding: 12px 15px;
+}
+
+.intable thead tr th{
+  background-color: #696969;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+
+.intable tbody tr{
+  border-bottom: 1px solid #DDDDDD;
+}
+
+
+.intable tbody tr:last-of-type{
+  border-bottom: 2px solid darkgreen;
+}
+
+.updatebutton{
+  text-decoration: none;
+}
+
+/* confirmation.php */
+
+.site-confirmation{
+  width: 100%;
+  height: auto;
+  background-image: url(./pics/firstpage.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.cconfirmation{
+  background-color: #006400;
+  border-radius: 20px 20px 0px 0px;
+  color: #FFFFFF;
+  padding-bottom:10px;
+  padding-left: 10px;
+
+}
+.cconfirmation2{
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* update.php */
+
+.site-update{
+  width: 100%;
+  height: auto;
+  background-image: url(./pics/firstpage.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.cupdate{
+  background-color: #006400;
+  border-radius: 20px 20px 0px 0px;
+  color: #FFFFFF;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+.cupdate2{
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+
+}
+
+
+
+
+
+
+
